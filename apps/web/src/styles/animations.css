@@ -1,0 +1,25 @@
+/* ==========================================
+   BAGTREX ANIMATIONS
+========================================== */
+
+:root {
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 350ms;
+
+  --ease-default: ease-in-out;
+}
+
+.fade-in {
+  animation: fadeIn var(--duration-normal) var(--ease-default);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,47 @@
+import type { Product } from "./types";
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "Luxury Leather Duffel",
+    slug: "luxury-leather-duffel",
+    image: "/images/hero-bag.png",
+    price: 7999,
+    originalPrice: 9999,
+    rating: 4.9,
+    reviews: 128,
+    badge: "Best Seller",
+  },
+  {
+    id: 2,
+    name: "Executive Laptop Bag",
+    slug: "executive-laptop-bag",
+    image: "/images/hero-bag.png",
+    price: 5999,
+    originalPrice: 7499,
+    rating: 4.8,
+    reviews: 92,
+    badge: "New",
+  },
+  {
+    id: 3,
+    name: "Urban Backpack",
+    slug: "urban-backpack",
+    image: "/images/hero-bag.png",
+    price: 4999,
+    originalPrice: 6499,
+    rating: 4.7,
+    reviews: 84,
+  },
+  {
+    id: 4,
+    name: "Travel Weekender",
+    slug: "travel-weekender",
+    image: "/images/hero-bag.png",
+    price: 8999,
+    originalPrice: 10999,
+    rating: 5.0,
+    reviews: 156,
+    badge: "Premium",
+  },
+];
