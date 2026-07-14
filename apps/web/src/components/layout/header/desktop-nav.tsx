@@ -20,7 +20,7 @@ export function DesktopNav() {
                         key={item.href}
                         href={item.href}
                         className={cn(
-                            "group relative text-sm font-medium transition-colors duration-200",
+                            "group relative text-[16px] font-medium transition-colors duration-200",
                             active
                                 ? "text-primary"
                                 : "text-muted-foreground hover:text-foreground"
@@ -30,8 +30,10 @@ export function DesktopNav() {
 
                         <span
                             className={cn(
-                                "absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300",
-                                active ? "w-full" : "w-0 group-hover:w-full"
+                                "group relative text-[15px] font-medium tracking-wide transition-all duration-300 ease-out",
+                                active
+                                    ? "text-primary"
+                                    : "text-muted-foreground hover:text-primary"
                             )}
                         />
                     </Link>
